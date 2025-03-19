@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1173px;
+    margin: 100px 50px;
+}
+.title-1{
+    width: 40%;
+    float: left;
+    
+}
+.title{
+    width: 50%;
+}
+.title-2{
+    width: 40%;
+    float: left;
+    margin-left: 30px;
+    
+}
+.pc_ss02{
+    width: 100%;
+}
+.clearfix{
+    clear: both;
+}
+.contents h2{
+    text-transform: uppercase;
+}
+.contents{
+    margin-bottom: 20px;
+}
+.contents p{
+    word-spacing: -3%;
+}

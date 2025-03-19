@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gnb{
+    display: flex;
+    width: 1368px;
+    margin: 0 auto;
+}
+.logo{
+    margin-right: 64px;
+}
+.nav-gnb{
+    display: flex;
+    list-style: none;
+}
+.nav-gnb li{
+    
+    
+    
+}
+.nav-gnb a{
+    text-decoration: none;
+    margin-right: 64px;
+    color: #000;
+}
+
+
+
+.fluid{
+    width: 100%;
+    background-color:antiquewhite;
+    margin: 20px 0;
+}
+
+.box1{
+    width: 10%;
+    height: 100px;
+    background-color: #fff;
+    float: left;
+}
+.clearfix{
+    clear: both;}

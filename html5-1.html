@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴만드는 방법</title>
+    <style>
+        .btn-a{
+            width: 100px;
+            height: 50px;
+            background-color: blueviolet;
+            display: inline-block;
+            text-align: center;  /*width,height가 적용안되서 text align과 line height로 지정*/
+            line-height: 50px;
+        }
+        .menu li{
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+            display: inline-block;
+            list-style: none; 
+        }
+        .menu a{        /*menu>li 할 때 > 없이 띄어쓰기 해도 li 하위단위가 없어서 되는데 menu 안에 li 안에 a 가 있어서 선택하려면 menu a 해도 적용됨*/
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+            background-color: gold;
+            text-align: center;
+            line-height: 50px;
+            /*text-decoration:underline dotted; 속성값이 적용하려고 할 때, 선이 먼저 있어야 효과를 넣을 수 있어서 underline치고 속성적용*/
+            text-decoration: overline underline;
+            border: 1px solid #000;
+        }
+       
+    </style>
+</head>
+<body>
+    <p><a href="http://www.naver.com" class="btn-a">네이버</a>로 연결할게요</p>
+    <p>다음으로 연걸할게요.</p>
+    <p>네이트로 연결할게요.</p>
+    <p>라이코스로 연결할게요.</p>
+
+    <ul class="menu">
+        <li><a href="https://www.naver.com">네이버</a></li>
+        <li><a href="http://www.daum.net">다음</a></li>
+        <li><a href="http://nate.com">네이트</a></li>
+        <li><a href="https://www.lycos.kr">라이코스</a></li>
+        <li><a href="https://www.yahoo.com">야후</a></li>
+    </ul>
+    
+</html>

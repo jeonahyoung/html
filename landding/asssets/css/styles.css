@@ -1,0 +1,52 @@
+/*리셋을 잡는다(.(class), #(id), *(파일찾기)*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: navajowhite;
+}
+.gnb{
+    display: flex;
+    width: 1368px;
+    margin: 0 auto;
+}
+.logo{
+    margin-right: 64px;
+}
+.nav-gnb{
+    display: flex;
+}
+.nav-gnb li{
+    list-style: none;
+    margin-right: 64px;
+}
+.nav-gnb a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.fluid{
+    width: 100%;
+    background-color: brown;
+    margin: 20px 0;
+}
+.box{
+    width: 30%;
+    height: 100px;
+    background-color: aqua;
+    margin: 1%;
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: wheat;
+    margin: 10px;
+}
